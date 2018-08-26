@@ -25,6 +25,7 @@ public class BubbleSort {
                     swap(arr,i,i+1);
                 }
             }
+            lastSortedIndex--;
         }
     }
 
